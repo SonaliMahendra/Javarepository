@@ -16,6 +16,6 @@ public class Driver{
         catch (CustomizedException e) {
             System.out.println(e.getMessage()+" handled");
         }
-        
+
     }
 }
