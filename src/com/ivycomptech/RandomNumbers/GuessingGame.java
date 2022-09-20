@@ -14,7 +14,6 @@ public class GuessingGame {
         boolean correct = false;
         answer = rand.nextInt(MAX) + 1;
         do  {
-
             System.out.println(
                     "Guess a number between 1 and 100: ");
             guess = in.nextInt();
